@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prosper's Personal Space</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: auto;
+      }
+
+      .header-section {
+        background-color: #1f2937;
+        color: #f9faf8;
+        padding: 1.56em;
+      }
+
+      .main-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3em;
+      }
+
+      .header-logo {
+        font-weight: 900;
+      }
+
+      a {
+        margin: 1em;
+      }
+
+      .sub-header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .sub-headerr {
+        max-width: 30%;
+      }
+
+      .sign {
+        background-color: #3882f6;
+        border: none;
+        color: #f9faf8;
+        padding: 0.5em 1em;
+        border-radius: 7px;
+      }
+
+      .sign:hover {
+        opacity: 0.8;
+        transition: opacity 0.5s;
+        cursor: pointer;
+      }
+
+      .sign:active {
+        opacity: 0.1;
+        transition: opacity 0.15s;
+      }
+
+      .image-1 {
+        object-fit: contain;
+        width: 290px;
+        border-radius: 15px;
+      }
+
+      img {
+        width: 120px;
+        border-radius: 1em;
+      }
+
+      h4 {
+        display: flex;
+        justify-content: center;
+        font-weight: 900;
+        margin-bottom: 2em;
+      }
+
+      .sub-main {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .sub-main2 {
+        padding: 5rem;
+        font-style: italic;
+        background-color: #e5e7eb;
+      }
+      .name {
+        font-weight: 900;
+        font-style: oblique;
+      }
+
+      .content {
+        padding: 2.8em;
+      }
+
+      .sub-content {
+        background-color: #3882f6;
+        color: #e5e7eb;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 10px;
+      }
+      h5 {
+        font-size: 1em;
+      }
+
+      .up {
+        background-color: #3882f6;
+        border: 0.001em solid #e5e7eb;
+        color: #e5e7eb;
+        border-radius: 5px;
+        padding: 0.5em 0.9em;
+      }
+
+      a,
+      .up:hover {
+        opacity: 0.8;
+        transition: opacity 0.5s;
+        cursor: pointer;
+      }
+
+      .up:active {
+        opacity: 0.1;
+        transition: opacity 0.15s;
+      }
+      .footer {
+        background-color: #1f2937;
+        padding: 1.4em;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: #e5e7eb;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-section">
+      <div class="main-header">
+        <div class="header-logo">Prosper's Space</div>
+        <div class="headerr">
+          <a>Skills</a>
+          <a>About</a>
+          <a>Contact</a>
+        </div>
+      </div>
+      <div class="sub-header">
+        <div class="sub-headerr">
+          <h2>Welcome to my portfolio website</h2>
+          <p>
+            This website showcases my skillset in programming especially in the
+            area of frontend web development
+          </p>
+          <button class="sign">Sign up</button>
+        </div>
+        <div>
+          <img
+            class="image-1"
+            src="developer-3461405_1280.webp"
+            alt="this is an image"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="main-content">
+      <h4>My skillset Includes the following</h4>
+      <div class="sub-main">
+        <div>
+          <img src="code-1839406_1280.jpg" alt="" />
+          <p>website coding</p>
+        </div>
+        <div>
+          <img src="istockphoto-1148960878-612x612.jpg" alt="" />
+          <p>webapp devops</p>
+        </div>
+        <div>
+          <img src="programming-1857236_640.jpg" alt="" />
+          <p>frontend engineer</p>
+        </div>
+        <div>
+          <img src="developer-3461405_1280.webp" alt="" />
+          <p>javascript engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="sub-main2">
+      I created this project as an assignment for the last project on the css
+      course. I would like to proceed to the javascript course i hope i remain
+      focused to the end so i can reap the reward of my efforts
+      <p class="name">- Prosper Marshall</p>
+    </div>
+    <div class="content">
+      <div class="sub-content">
+        <div class="call">
+          <h5>Call to action It's time!</h5>
+          <p>Contact me whenever you need my services right here!</p>
+        </div>
+        <div><button class="up">Sign up</button></div>
+      </div>
+    </div>
+    <div class="footer">Copyright The Odin Project 2023.</div>
+  </body>
+</html>
